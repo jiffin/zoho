@@ -13,21 +13,23 @@ int main()
 	switch(ch)
 	{
 		case 1:
-		for(i=1;i<=num;i++)
-		{
-			printf("%d\t",s);
-			s=s+diff;	
-		}
-		break;
+			printf("AP\n");
+			for(i=1;i<=num;i++)
+			{
+				printf("%d\t",s);
+				s=s+diff;	
+			}
+			break;
 		case 2:
-		for(i=1;i<=num;i++)
-		{
-			printf("%d\t",s);
-			s=s*diff;
-		}
-		break;
+			printf("GP\n");
+			for(i=1;i<=num;i++)
+			{
+				printf("%d\t",s);
+				s=s*diff;
+			}
+			break;
 		default:
-      printf("Please Enter Method 1 or 2");
+      		printf("Please Enter Method 1 or 2");
 	}
 return 0;
 }
