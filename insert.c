@@ -11,7 +11,7 @@ int main()
   }
   printf("enter the number and index\n");
 	scanf("%d%d",&b,&c);
-  for(i=n-1;i>=ind;i--)
+  for(i=n-1;i>=c;i--)
 	{
 		a[i+1]=a[i];
 	}
