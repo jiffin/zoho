@@ -10,16 +10,16 @@ int main()
     scanf("%d",&a[i]);
   }
   printf("enter the number and index\n");
-	scanf("%d%d",&b,&c);
+  scanf("%d%d",&b,&c);
   for(i=n-1;i>=c;i--)
-	{
-		a[i+1]=a[i];
-	}
-	a[c]=b;
-	printf("the new array is");
-	for(i=0;i<=n;i++)
-	{
-	  printf("%d\n",a[i]);
-	 }
-	return 0;
+  {
+    a[i+1]=a[i];
+   }
+  a[c]=b;
+  printf("the new array is");
+  for(i=0;i<=n;i++)
+  {
+    printf("%d\n",a[i]);
+  }
+  return 0;
 }
