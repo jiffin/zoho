@@ -13,7 +13,7 @@ int main()
   
 	if(n%2==0)
 	{
-    c=n/2;
+		 c=n/2;
 		b=c;
 	}
 	else
